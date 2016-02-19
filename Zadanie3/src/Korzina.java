@@ -6,10 +6,11 @@ import java.util.List;
  * Created by Stig on 22.01.2016.
  */
 public class Korzina implements Basket {
-    HashMap<String,Integer> products = new HashMap<String, Integer>();
+    HashMap<String, Integer> products = new HashMap<String, Integer>();
+
     @Override
     public void addProduct(String product, int quantity) {
-        products.put(product,quantity);
+        products.put(product, quantity);
     }
 
     @Override
@@ -19,7 +20,7 @@ public class Korzina implements Basket {
 
     @Override
     public void udateProductQuantity(String product, int quantity) {
-        products.put(product,quantity);
+        products.put(product, quantity);
     }
 
     @Override
